@@ -1,0 +1,145 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 + p {
+	font-size: 18px;
+	margin-top: 9px;
+	color: #f4e015;
+}
+
+h1 {
+	color: #f4e015;
+} 
+
+
+
+.sidebar {
+	background-color: darkgray;
+	width: 18%;
+	height: 1000px;
+	padding: 10px;
+	position: fixed;
+	border-right: 5px solid lightgray;
+}
+
+.mainPicture {
+	background: url(../img/capcom.png);
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 150px;
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+
+.sidebar-btn {
+	background-color: #8bc1fd;
+	padding: 5px;
+	margin: 5px auto;
+	text-align: center;
+	max-width: 100%;
+	list-style: none;
+	border: 2px solid black;
+}
+
+.sidebar-btn a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+/**
+*
+*
+* Main contents
+*
+*/
+
+.home {
+	background: url(../img/sf1.png);
+	background-size: cover;
+	height: 900px;
+	width: 82%;
+	right: 0;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.about {
+	background: url(../img/mg1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 900px;
+	width: 82%;
+	right: 0;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.services {
+	background: url(../img/re1.jpg);
+	background-size: cover;
+	height: 900px;
+	width: 82%;
+	right: 0;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.projects {
+	background: url(../img/mw1.jpg);
+	background-size: cover;
+	height: 900px;
+	width: 82%;
+	right: 0;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.contact {
+	background-color: lightgreen;
+	height: 900px;
+	width: 82%;
+	right: 0;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+/*
+*
+* Contents
+*
+*/
+
+
+.homeFrame {
+	/*background-color: yellow;*/
+	height: 300px;
+	width: 65%;
+	margin: 20% auto;
+	border: 10px solid yellow;
+	text-align: center;
+	padding: 50px;
+}
+
+h2 + p {
+	color: white;
+	font-size: 18px;
+
+}
+
+h2 {
+	color: white;
+	height: 10%
+}
